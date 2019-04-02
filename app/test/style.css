@@ -139,10 +139,10 @@ input.error { border-color: red !important; }
 label.error { display: none !important; }
 
 .btn-next { display: block; width: 100%; padding: 19px 0; border-radius: 80px; border-bottom: 3px solid #d0d0d0; background: #DADADA; margin-left: 15px; font-size: 18px; font-family: 'Museo Sans Cyrl 700'; color: #A7A7A7; text-align: center; text-transform: uppercase; -webkit-transition: .3s; transition: .3s; position: relative; overflow: hidden; }
-.btn-next:hover { background: #dbde04; }
+.btn-next:hover { background: #a50303; }
 .btn-next span { font-weight: inherit; position: relative; z-index: 2; }
 .btn-next span:after { content: ""; display: inline-block; width: 15px; height: 13px; background: url("img/next-row.svg") no-repeat center; margin-left: 10px; }
-.btn-next_active { border-bottom: 3px solid #e8ec00; background:#f1f519; color: #000; }
+.btn-next_active { border-bottom: 3px solid #a50303; background:#f00; color: #fff; }
 .btn-next_active span:after { background: url("img/next-row-a.png") no-repeat center; background-size: contain;}
 .btn-next-container { width: 100%; position: relative; }
 .btn-next-container:before { content: ""; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 5; }
@@ -217,9 +217,9 @@ label.error { display: none !important; }
 .last-step-form { width: 100%; padding-left: 15px; }
 .last-step-form__label { display: block; font-size: 17px; margin-bottom: 18px; }
 .last-step-form__input { display: block; width: 100%; max-width: 380px; padding: 11px 0 11px 50px; margin-bottom: 10px; border: 1px solid transparent; border-radius: 5px; height: 60px; font-family: 'Museo Sans Cyrl 300'; font-size: 16px; border-radius: 100px; background: #EFEFEF url("img/phone.png") no-repeat left 20px center; }
-.last-step-form__button { display: block; width: 100%; max-width: 380px; padding: 19px 0; border-radius: 100px; border: 0; border-bottom: 3px solid #e8ec00; background: #f1f519; font-size: 18px; font-weight: bold; color: #000; text-align: center; text-transform: uppercase; -webkit-transition: .3s; transition: .3s; position: relative; overflow: hidden; margin-bottom: 10px; cursor: pointer; font-family: 'Museo Sans Cyrl 700';}
+.last-step-form__button { display: block; width: 100%; max-width: 380px; padding: 19px 0; border-radius: 100px; border: 0; border-bottom: 3px solid  #a50303; background:#f00; font-size: 18px; font-weight: bold; color: #fff; text-align: center; text-transform: uppercase; -webkit-transition: .3s; transition: .3s; position: relative; overflow: hidden; margin-bottom: 10px; cursor: pointer; font-family: 'Museo Sans Cyrl 700';}
 .last-step-form__button span { font-weight: inherit; position: relative; z-index: 2; }
-.last-step-form__button:hover { background: #e8ec00; }
+.last-step-form__button:hover { background: #a50303; }
 .last-step-form__accept { font-size: 11px; color: #4A4A4A; }
 .last-step-form__accept a { color: inherit; text-decoration: underline; }
 

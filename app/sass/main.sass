@@ -15,7 +15,6 @@ body
 	font-family: $regular-font
 	line-height: 1.25
 	overflow-x: hidden
-	background-color: #000
 	color: #000
 	input, textarea, select
 			border: none
@@ -43,6 +42,13 @@ button
 	&:focus
 		outline: none
 
+.content
+	overflow-x: hidden
+	background-image: url(../img/head_bg.jpg)
+	background-size: cover
+	background-position: center top
+	background-repeat: no-repeat
+
 .head
 	position: relative
 	overflow: hidden
@@ -59,46 +65,43 @@ button
 		float: left
 
 .main
-	min-height: calc(100vh - 92px -	127px)
-	.container
-		background-color: $accent
-		padding: 40px 0
+	min-height: calc(100vh - 91px -	91px)
 	&__ttl
 		font-family: $bold-font
-		font-size: 28px
+		font-size: 30px
 		text-transform: uppercase
-		text-align: center
-		color: #000
+		color: #fff
 		margin-bottom: 20px
 		position: relative
 		span
-			color: #000000
+			color: #fff
 			background-color: $accent
 			display: inline-block
 			padding: 0 4px
+			margin: 2px 0
 	&__subttl
 		font-family: $title-bold
 		text-transform: uppercase
-		text-align: center
 		font-size: 18px
 		color: #fff
 		display: table
-		background: #000
+		background: $accent
 		padding: 3px 8px
-		margin: 0 auto 20px
+		margin-bottom: 20px
 	&-list
 		max-width: 600px
 		list-style-type: none
 		padding-left: 0
-		margin: 0 auto 20px
+		margin-bottom: 20px
 		&__li
 			position: relative
 			width: 50%
 			float: left
-			color: #000
+			color: #fff
 			line-height: 20px
 			margin-bottom: 20px
 			padding-left: 40px
+			min-height: 40px
 			&.last
 				margin-bottom: 0
 			i
@@ -109,7 +112,7 @@ button
 				line-height: 30px
 				text-align: center
 				font-style: normal
-				background-color: #000
+				background-color: $accent
 				color: #fff
 				position: absolute
 				top: 0
@@ -120,14 +123,13 @@ button
 		display: block
 		max-width: 320px
 		padding: 8px 95px 8px 60px
-		margin: 0 auto
 		font-size: 22px
 		text-transform: uppercase
 		line-height: 1
 		font-family: $bold-font
 		color: #fff
 		border-radius: 40px
-		background-image: -webkit-linear-gradient(90deg,#000000 0,#383838 100%)
+		background-image: -webkit-linear-gradient(90deg,#b10000 0,#ff0000 100%)
 		&:before
 			content: ''
 			width: 30px
@@ -162,14 +164,11 @@ button
 			font-size: 10px
 			text-align: center
 			margin-top: 5px
-			color: $accent
-	&__ico
-		max-width: 50px
-		margin: 0 auto 20px
+			color: #000
 
 .flex
 	display: flex
-	min-height: calc(100vh - 92px -	127px) 
+	min-height: calc(100vh - 91px -	91px) 
 	&-content
 		margin: auto
 		max-width: 100%
@@ -191,7 +190,6 @@ button
 			left: 0
 	&-soc
 		display: table
-		margin: 0 auto
 		&__link
 			display: inline-block
 			margin-right: 5px

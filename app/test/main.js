@@ -116,12 +116,7 @@ $(document).ready(function() {
 					step5 = $(this).find('.pick-item__label').text();
 	      	$('.hidden-input-5').attr('value', step5);
 			  }
-
-			  	if($(this).closest('.step-slide').hasClass('step-slide-6')) {
-					step6 = $(this).find('.pick-item__label').text();
-	      	$('.hidden-input-6').attr('value', step6);
-			  }
-
+			  
 			});
 
 			$('.mm-page-3 input[name="square"]').change(function() {

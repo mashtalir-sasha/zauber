@@ -5,9 +5,7 @@
 
 //Medium: ≥768px
 +media-breakpoint-down(md)
-	.dev
-		float: none
-		margin: 20px auto
+
 //Small: ≥576px
 +media-breakpoint-down(sm)
 	.main
@@ -18,37 +16,44 @@
 		&-list
 			padding: 0 20px
 	.foot
-		&__addr
-			margin-bottom: 20px
-		&__phone
-			&:last-child
-				margin-bottom: 20px
-		&-soc
-			display: table
-			margin: 0 auto
 
 //Extra small: >0
 +media-breakpoint-down(xs)
+	.dev
+		display: table
+		float: none
+		margin: 20px auto 0
+	.content
+		background-color: #000
+		background-image: none
+	.main
+		padding: 40px 0
+		background-image: url(../img/head_bg_xs.jpg)
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+
+
+//Extra small: >0
++media-breakpoint-down(xxs)
 	.head
 		&__name
 			padding-left: 0
 			border-left: none
 			text-align: center
-			margin-top: 10px
+			margin-top: 20px
 	.main
-		.container
-			padding: 40px 10px
 		&__btn
 			padding: 8px 60px
 			span
 				max-width: 160px
 		&__subttl
 			background-color: transparent
-			color: #000
+			color: #fff
 		&__ttl
 			span
 				color: #fff
-				background-color: #000
+				background-color: $accent
 				display: inline-block
 				padding: 2px 8px
 		&-list
@@ -56,8 +61,9 @@
 				float: none
 				width: 100%
 				padding-left: 50px
+				margin-bottom: 20px
 				&.last
-					margin-bottom: 20px
+					margin-bottom: 0
 				i
 					width: 40px
 					height: 40px
@@ -66,9 +72,14 @@
 		&__addr
 			text-align: center
 			padding-left: 0
+			margin-bottom: 20px
 			&:before
 				display: none
 		&__phone
 			padding-left: 0
 			background-image: none
+			margin-bottom: 20px
+		&-soc
+			display: table
+			margin: 0 auto
 
