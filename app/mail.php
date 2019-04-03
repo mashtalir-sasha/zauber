@@ -9,7 +9,7 @@
 	if(isset ($_POST['step4'])) {$step4=$_POST['step4'];}
 	if(isset ($_POST['step5'])) {$step5=$_POST['step5'];}
 
-	$to = "mashtalir_sasha@ukr.net"; // Замениь на емаил клиента
+	$to = "zaubergroup@gmail.com"; // Замениь на емаил клиента
 
 	$message = "Форма: $title <br><br>";
 	if ( $fio || $phonenum || $step1 || $step2 || $step3 || $step4 || $step5 ) {
@@ -25,10 +25,10 @@
 
 	$headers = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-type: text/html; charset=UTF-8\r\n";
-	$headers .= "From: no-reply@site.ua"; // Заменить домен на домен клиента
+	$headers .= "From: no-reply@zauber.sumy.ua"; // Заменить домен на домен клиента
 
 	if (!$title && !$phonenum) {
 	} else {
-		mail($to,"New lead(site)",$message,$headers); // Заменить домен на домен клиента
+		mail($to,"New lead(zauber.sumy.ua)",$message,$headers); // Заменить домен на домен клиента
 	}
 ?>
