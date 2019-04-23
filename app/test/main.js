@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('input[name="phone"]').mask('+38 (999) 999-99-99');
+	$('input[name="phone"]').mask('(999) 999-99-99');
 
 	$('.step-slide__title').each(function(index, el) {
 		$(el).prepend('<div class="step-slide__title-counter">' + (index + 1) + '</div>');
