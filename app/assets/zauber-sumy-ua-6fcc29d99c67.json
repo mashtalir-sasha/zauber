@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "leads-from-zauber-sumy-ua",
+  "private_key_id": "6fcc29d99c6761a36b8d6b3a2de7a2495011f32a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQn2HrfFD2HIxJ\ndXeJi+UmCz0EH6HtUoo/keI2OgHEw8ix5Qh14dbTm/5hGOxWBGqJDSr0usDVzKid\njdnfgt4pPUIRZyExTgDYkLSQohevQuxiMBFQBPPoi76qIyth7fqKkZ2dBhiDpdGZ\ngfBY/JGXI13GLLDQLe2fTeWxh0eJwVJVC+/ILdcsU0/ukcpzCnL3eIMNHkvyMFUq\n/mXgv3TkVs6G6duN2gH654WHzSVPJURgZnwcZOtC+v1DGPtb69dWJ+POec+H2N5j\nlfkvwqdd8zjxrN4aZZ6y3qzBln5OeNixbiW34mPS9ffJ0UUs1NDgZMXY5Ls30/iI\nE169psWLAgMBAAECggEACtGhhaLwe44kgH+lHZ5gL2RlKssjAJn4IEv4MY5NVjw/\nO0T4SQ6dVN81PGuc4nfExdPnrr8kcIS1kx5qz2mpgkmZiQEUs+zd61WH7Hnzw6IC\nBPu2OoI5rN/SDPBB7TrcT0QYF7MTtRAmieaf5Z2fVpXIDMHdyEpnSE+PgKRaGa1G\ngtD88mIOPCIMyQ0rsB11ajmSo6mHU4Q0aFLYRkCIXwWvCsbJpkOTrPh9KLCCB+/m\nz8Z3Up9hyKwiFnQ4Q1wGxi+QiLzsj4mg96+CogoZPvDbuBRT6paiLgQgNoDFRwIX\njXnyQen46qdRavTYKa6faLX+8/98wWj++6LaSqA+oQKBgQDBdm8liN0imrc8ewp4\ncce4sE3fdCbBAGCOO2lGqnjf9m59R2p3Yq+uGmWiO9EWPBHyfJwtcUnj6hVuqhge\nxJ9WosI/UrCdL42AY90+qqmGJ2/G/OxXyXVScYLPbdUyJWATm0w9EWUHNz3uZI+D\nAx6WLxUyH+ovjg6KCxLToMdGlQKBgQC/X0zOhvBQ9vbie/1uInrm/ehQVbQP8Aak\np35BMyuSGRrk9jq4xiZCBnFYjF4VdNzw2oiPxxd07e1HugXfMGHnjmAR6doMB1lV\ntwLk6Iy9Uhz2QitTM1r8/dgpooQKqGYOSBzFSiixYAplUShA0AhTg0l3xQj80lbI\nIN2zjjlznwKBgG5FPmcLktgFjcnoa/hpCijoPQrP3sMFnwOTM5d21Xz6rtGzoii4\nVGCNZT7Kj4v341bu1epE95P0OhEg3Ky08Almrgd/73E4yJPU2Ce/CO+RjPHD+kaz\naq76SlBHT0zM5u1mCFeKkaZCQ4edQ/uuDIIYBiHS9R3z/6+JTkrYCp3dAoGAW45C\ndsREENg2gWCEfL5uQjjTfiuie8V/yCKB2ruaaskr/sJ2kZPrFcdzTsPI90bztR84\nGmFLrZtu29P5ny/MhzWsbKWOthaF/OYTsmQ3gRPZ208I30NAkqz3T+P6fAbY3JhP\ne2vhUAr8rkBHm8prUVkMOwq/JAWVkyV2K8MtZU0CgYAqmB0f2s82ZiJYcq/xHa3D\nBSG22XchEdQpecCBEHbSVeAuR9dkIuL3zk/yqbidIRa4xLceCMkchbfkziNlksEa\nOw/mokgMKiMeNTxPmFVSmHcWqq6sGR/q5yJ+XZN3BOh5JRY5B66KdZ/jKQLzniVO\njgtL6IbsrLOuMIa8kvBRdw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "leads-797@leads-from-zauber-sumy-ua.iam.gserviceaccount.com",
+  "client_id": "106860754704737090101",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/leads-797%40leads-from-zauber-sumy-ua.iam.gserviceaccount.com"
+}
